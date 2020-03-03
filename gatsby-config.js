@@ -1,4 +1,5 @@
 let contentfulConfig
+console.log(process.env.SPACE_ID)
 try {
   contentfulConfig = require('./.contentful')
 } catch (e) {
