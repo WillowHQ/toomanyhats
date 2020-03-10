@@ -1,18 +1,9 @@
-let contentfulConfig
-console.log(process.env.SPACE_ID)
-try {
-  contentfulConfig = require('./.contentful')
-} catch (e) {
-  contentfulConfig = {
-    production: {
-      spaceId: process.env.SPACE_ID,
-      accessToken: process.env.ACCESS_TOKEN,
-    },
-  }
-} finally {
-  const { spaceId, accessToken } = contentfulConfig.production
-  if (!spaceId || !accessToken) {
-    throw new Error('Contentful space ID and access token need to be provided.')
+
+
+const contentfulConfig = {
+  production: {
+    spaceId: "j4uyif1cbf2w",
+    accessToken: "sRp9l2b3OTaIIksXTK63EEMqw4Czdd_8zbQYJMl44SU"
   }
 }
 
