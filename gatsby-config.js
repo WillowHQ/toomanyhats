@@ -4,6 +4,10 @@ const contentfulConfig = {
   production: {
     spaceId: "j4uyif1cbf2w",
     accessToken: "sRp9l2b3OTaIIksXTK63EEMqw4Czdd_8zbQYJMl44SU"
+  }, 
+  development: {
+    spaceId: "j4uyif1cbf2w",
+    accessToken: "sRp9l2b3OTaIIksXTK63EEMqw4Czdd_8zbQYJMl44SU"
   }
 }
 
