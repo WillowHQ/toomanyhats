@@ -11,17 +11,19 @@ const Wrapper = styled.div`
 
 const Date = styled.p`
   display: inline-block;
+  color: #808080;
 `
 
 const ReadingTime = styled.p`
   display: inline-block;
+  color: #808080;
 `
 
 const PostDetails = props => {
   return (
     <Wrapper>
       <Date> {props.date}</Date>
-      <span>•</span>
+      <span style={{color:'#808080'}}>•</span>
       <ReadingTime>{`${props.timeToRead} min read `}</ReadingTime>
     </Wrapper>
   )

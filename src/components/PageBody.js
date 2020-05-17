@@ -9,9 +9,12 @@ const Body = styled.div`
   h2,
   h3 {
     font-weight: 600;
+    color: #808080;
     line-height: 1.25;
     margin: 0 0 1rem 0;
     text-transform: capitalize;
+    font-family: "Libre Baskerville", serif;
+
   }
 
   h1 {
@@ -25,8 +28,18 @@ const Body = styled.div`
   }
 
   p {
-    line-height: 1.6;
-    margin: 0 0 2em 0;
+    line-height: 30px;
+    margin: 1em 0 2em 0;
+  }
+
+  p:first-of-type {
+    margin-top: 4em;
+  }
+
+  p:first-of-type::first-letter {
+    font-size: 6em;
+    font-family: "Libre Baskerville", serif;
+    letter-spacing: 0.03em;
   }
 
   a {

@@ -15,9 +15,10 @@ const Box = styled.div`
   max-width: ${props => props.theme.sizes.maxWidthCentered};
   a {
     background: ${props => props.theme.colors.primary};
-    color: white;
-    padding: 1em;
-    border-radius: 2px;
+    font-family: "Libre Baskerville", serif;
+    color: #f3f3f3;
+    padding: 0.7em;
+    border-radius: 5px;
     text-decoration: none;
     transition: 0.2s;
     &:hover {

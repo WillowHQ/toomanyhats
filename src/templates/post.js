@@ -41,7 +41,7 @@ const PostTemplate = ({ data, pageContext }) => {
         }
         image={ogImage}
       />
-      <Hero title={title} image={heroImage} height={'65vh'} />
+      <Hero title={title} image={heroImage} height={'68vh'} />
       <Container>
         {tags && <TagList tags={tags} basePath={basePath} />}
         <PostDetails

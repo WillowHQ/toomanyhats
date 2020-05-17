@@ -43,25 +43,29 @@ const StyledImg = styled(Img)`
 `
 
 const Title = styled.h2`
-  font-size: 1.5em;
+  font-family: "Libre Baskerville", serif;
+  line-height: 1.2em;
+  font-size: 1.2em;
   font-weight: 600;
   text-transform: capitalize;
-  margin: 1rem 1rem 0.5rem 1rem;
+  margin: 1rem 1rem 0.7rem;
 `
 
 const Date = styled.h3`
-  margin: 0 1rem 0.5rem 1rem;
-  color: gray;
+  margin: 0 1rem 0.2rem 1rem;
+  color: #9e9e9e;
+  font-size: 1.05rem;
 `
 
 const ReadingTime = styled.h4`
-  margin: 0 1rem 1.5rem 1rem;
-  color: gray;
+  margin: 0 1rem 0.6rem 1rem;
+  color: #9e9e9e;
+  font-size: 1.05rem;
 `
 
 const Excerpt = styled.p`
   margin: 0 1rem 1rem 1rem;
-  line-height: 1.6;
+  line-height: 1.3;
 `
 
 const Card = ({ slug, heroImage, title, publishDate, body, ...props }) => {

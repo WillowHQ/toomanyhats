@@ -104,6 +104,10 @@ module.exports = {
           {
             family: `Prata`,
             variants: [`400`, `700`]
+          },
+          {
+            family: `Libre Baskerville`,
+            variants: [`400`, `700`]
           }
         ]
       }

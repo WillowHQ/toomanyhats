@@ -1,6 +1,6 @@
 export default {
   colors: {
-    background: '#ffffff',
+    background: '#f3f3f3',
     text: '#212121',
     primary: '#212121',
     secondary: '#e9e9e9',
@@ -9,7 +9,7 @@ export default {
   },
   fonts: {
     body:
-      '"Prata", serif',
+      '"Montserrat", sans-serif',
   },
   sizes: {
     maxWidth: '1050px',
