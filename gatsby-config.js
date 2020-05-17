@@ -1,11 +1,16 @@
 
 
 const contentfulConfig = {
-  production: {
-    spaceId: "j4uyif1cbf2w",
-    accessToken: "sRp9l2b3OTaIIksXTK63EEMqw4Czdd_8zbQYJMl44SU"
+    "development": {
+      "host": "preview.contentful.com",
+      "spaceId": "j4uyif1cbf2w",
+      "accessToken": "YKWVzMlpZAE1BaHAsI4dNgu21PLX9BYTCzVayLVBPGY"
+    },
+    "production": {
+      "spaceId": "j4uyif1cbf2w",
+      "accessToken": "sRp9l2b3OTaIIksXTK63EEMqw4Czdd_8zbQYJMl44SU"
+    }
   }
-}
 
 module.exports = {
   siteMetadata: {
