@@ -35,6 +35,7 @@ const Button = styled(Link)`
 const Numbers = styled.div`
   font-family: "Libre Baskerville", serif;
   display: inline-block;
+  border-radius: 5px;
   float: left;
   color: ${props => props.theme.colors.text};
   padding: 1rem;
@@ -47,7 +48,7 @@ const Numbers = styled.div`
     transition: 0.3s all;
   }
   &:hover {
-    background: ${props => props.theme.colors.tertiary};
+    background: ${props => props.theme.colors.highlight};
   }
   @media (hover: none) {
     background: white !important;
