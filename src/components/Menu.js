@@ -52,7 +52,7 @@ const Menu = () => {
       <Nav>
         <ul>
           {menuLinks.map(link => (
-            <li key={link.name}>
+            <li key={link.name} style={{textTransform: 'uppercase'}}>
               <Link to={link.slug} activeStyle={activeLinkStyle}>
                 {link.name}
               </Link>

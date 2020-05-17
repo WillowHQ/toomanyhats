@@ -97,5 +97,16 @@ module.exports = {
       },
     },
     'gatsby-plugin-netlify',
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Prata`,
+            variants: [`400`, `700`]
+          }
+        ]
+      }
+    }
   ],
 }
