@@ -38,7 +38,7 @@ const Layout = props => {
 
   return (
     <Root className="siteRoot">
-      <div className="siteContent">
+      <div className="siteContent" style={{fontSize:'1.2em'}}>
         <Skip href="#main" id="skip-navigation">
           Skip to content
         </Skip>

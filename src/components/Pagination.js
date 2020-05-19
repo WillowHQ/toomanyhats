@@ -16,9 +16,10 @@ const Wrapper = styled.div`
 
 const Button = styled(Link)`
   background: ${props => props.theme.colors.primary};
-  color: white;
-  padding: 1rem;
-  border-radius: 2px;
+  font-family: "Libre Baskerville", serif;
+  color: #f3f3f3;
+  padding: 0.7rem;
+  border-radius: 5px;
   margin: 0 0 0 0.5rem;
   cursor: pointer;
   text-decoration: none;
@@ -32,9 +33,9 @@ const Button = styled(Link)`
 `
 
 const Numbers = styled.div`
-  border: 1px solid ${props => props.theme.colors.secondary};
-  border-radius: 2px;
+  font-family: "Libre Baskerville", serif;
   display: inline-block;
+  border-radius: 5px;
   float: left;
   color: ${props => props.theme.colors.text};
   padding: 1rem;
@@ -47,7 +48,7 @@ const Numbers = styled.div`
     transition: 0.3s all;
   }
   &:hover {
-    background: ${props => props.theme.colors.tertiary};
+    background: ${props => props.theme.colors.highlight};
   }
   @media (hover: none) {
     background: white !important;

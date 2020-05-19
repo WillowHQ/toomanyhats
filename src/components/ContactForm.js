@@ -17,23 +17,23 @@ const Form = styled.form`
   align-items: flex-start;
   input,
   textarea {
-    font-family: inherit;
+    font-family: "Libre Baskerville", serif;
     font-size: inherit;
     background: ${props => props.theme.colors.tertiary};
     color: ${props => props.theme.colors.text};
-    border-radius: 2px;
-    padding: 1em;
+    border-radius: 5px;
+    padding: 0.7em;
     &::-webkit-input-placeholder {
-      color: gray;
+      color: #212121;
     }
     &::-moz-placeholder {
-      color: gray;
+      color: #212121;
     }
     &:-ms-input-placeholder {
-      color: gray;
+      color: #212121;
     }
     &:-moz-placeholder {
-      color: gray;
+      color: #212121;
     }
     &:required {
       box-shadow: none;

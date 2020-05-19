@@ -14,15 +14,18 @@ const Tag = styled.li`
   a {
     float: left;
     transition: 0.2s;
-    background: ${props => props.theme.colors.tertiary};
-    padding: 0.5em;
-    border-radius: 2px;
+    background: #212121;
+    padding: 0.5em 0.5em 0.7em;
+    font-family: "Libre Baskerville", serif;
+    border-radius: 5px;
     text-transform: capitalize;
     text-decoration: none;
-    color: ${props => props.theme.colors.text};
+    font-size: 0.9em;
+    color: #f3f3f3;
     border: 1px solid ${props => props.theme.colors.secondary};
     &:hover {
       background: ${props => props.theme.colors.secondary};
+      color: #212121;
     }
   }
 `

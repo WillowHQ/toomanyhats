@@ -21,7 +21,7 @@ const Nav = styled.nav`
 
   li {
     display: inline-block;
-    margin-left: 1em;
+    margin-left: 1.5em;
     &:first-of-type {
       position: relative;
       margin: 0;
@@ -31,18 +31,18 @@ const Nav = styled.nav`
 
   a {
     text-decoration: none;
-    color: DarkGray;
-    font-weight: 600;
+    font-family: "Libre Baskerville", serif;
+    color: #f3f3f3;
+    font-weight: 400;
     transition: all 0.2s;
-    border-bottom: 2px solid ${props => props.theme.colors.text};
     &:hover {
-      color: white;
+      color: #9e9e9e;
     }
   }
 `
 
 const activeLinkStyle = {
-  color: 'white',
+  color: '#9e9e9e',
 }
 
 const Menu = () => {
@@ -52,7 +52,7 @@ const Menu = () => {
       <Nav>
         <ul>
           {menuLinks.map(link => (
-            <li key={link.name}>
+            <li key={link.name} style={{textTransform: 'uppercase'}}>
               <Link to={link.slug} activeStyle={activeLinkStyle}>
                 {link.name}
               </Link>

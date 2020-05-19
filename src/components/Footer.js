@@ -24,6 +24,7 @@ const List = styled.ul`
 const Item = styled.li`
   display: inline-block;
   padding: 0.25em 0;
+  font-size: 0.8em;
   width: 100%;
   @media screen and (min-width: ${props => props.theme.responsive.small}) {
     width: auto;
@@ -32,8 +33,9 @@ const Item = styled.li`
     font-weight: 600;
     transition: all 0.2s;
     color: ${props => props.theme.colors.text};
+    text-decoration: none;
     &:hover {
-      color: ${props => props.theme.colors.highlight};
+      text-decoration: underline;
     }
     &:visited {
       color: ${props => props.theme.colors.text};
@@ -58,21 +60,23 @@ const Footer = () => (
         </a>
       </Item>
       <Item>
+        Built by{' '}
         <a
-          href="https://github.com/ryanwiemer/gatsby-starter-gcn"
+          href="https://github.com/WillowHQ"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer" style={{ fontSize: '1.4em'}}
         >
-          gatsby-starter-gcn
+          Thom Lamb 
         </a>{' '}
-        by{' '}
+        (w/ the help of{' '}
         <a
-          href="https://github.com/ryanwiemer"
+          href="https://github.com/cma129"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer" style={{ fontWeight: '400'}}
         >
-          @ryanwiemer
+          Claudia Ahn
         </a>
+        )
       </Item>
     </List>
   </Wrapper>
