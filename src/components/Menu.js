@@ -21,11 +21,16 @@ const Nav = styled.nav`
 
   li {
     display: inline-block;
+    font-size: 1em;
     margin-left: 1.5em;
     &:first-of-type {
       position: relative;
       margin: 0;
       flex-basis: 100%;
+    }
+    @media (max-width: 400px) {
+      font-size: 0.8em;
+      margin-left: 1em;
     }
   }
 

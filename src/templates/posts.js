@@ -59,6 +59,7 @@ export const query = graphql`
     ) {
       edges {
         node {
+          nodeLocale
           title
           id
           slug
