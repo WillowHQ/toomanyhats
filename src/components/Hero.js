@@ -30,7 +30,7 @@ const BgImg = styled(Img)`
 
 const Title = styled.h1`
   z-index: 2;
-  font-size: 4em;
+  font-size: 2.7em;
   line-height: 1.2em;
   text-transform: capitalize;
   font-weight: 700;
@@ -45,6 +45,11 @@ const Title = styled.h1`
   color: #f3f3f3;
   text-shadow: 1px 1px rgba(100, 100, 100, 0.2);
   font-family: "Libre Baskerville", serif;
+  @media (max-width: 450px) {
+    font-size: 1.9em;
+    padding: 0 0.5rem;
+    top: 47%;
+  }
 `
 
 const Hero = props => (
